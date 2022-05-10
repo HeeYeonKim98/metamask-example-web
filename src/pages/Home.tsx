@@ -1,6 +1,12 @@
 import { FC } from 'react';
 import styled from 'styled-components';
-import { Connect, Permission, Transection } from '../components/home';
+import {
+  Connect,
+  Permission,
+  Transection,
+  ChangeChain,
+  InquireChain,
+} from '../components/home';
 
 const Home: FC = () => {
   return (
@@ -9,6 +15,8 @@ const Home: FC = () => {
       <Connect />
       <Permission />
       <Transection />
+      <InquireChain />
+      <ChangeChain />
     </Container>
   );
 };
